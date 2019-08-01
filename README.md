@@ -1,1 +1,1 @@
-# skel
+# envs.net - /etc/skel

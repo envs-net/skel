@@ -1,0 +1,40 @@
+set from = "newusername@envs.net"
+set realname = "newusername"
+
+set imap_user = "newusername@envs.net"
+set imap_pass = "newpassword"
+
+set smtp_url = "smtp://$imap_user@mail.envs.net:587/"
+set smtp_pass = $imap_pass
+
+set folder = "{mail.envs.net/ssl}"
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"
+
+set move = no
+
+mailboxes "+INBOX"
+
+set edit_hdrs
+
+set sort = reverse-threads
+set sort_aux = last-date-received
+
+set header_cache = "~/.cache/mutt/headers"
+
+set imap_check_subscribed
+set imap_keepalive = 300
+unset imap_passive
+set mail_check = 60
+set timeout = 60
+
+set signature ="~/.mutt/signature"
+
+#source ~/.gpg.rc
+#set pgp_timeout=3600
+#set pgp_autosign=yes
+#set pgp_replysign=yes
+#set pgp_verify_sig=yes
+#set pgp_replyencrypt=yes
