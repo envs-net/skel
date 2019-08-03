@@ -20,6 +20,6 @@ alias ll='exa -lahg'
 # envs.net
 #
 alias tb="nc tb.envs.net 9999"
-0file() { curl -F"file=@$1" https://0x0.envs.net ; }
-0url() { curl -F"url=$1" https://0x0.envs.net ; }
-0short() { curl -F"shorten=$1" https://0x0.envs.net ; }
+0file() { curl -F"file=@$1" https://envs.sh ; }
+0url() { curl -F"url=$1" https://envs.sh ; }
+0short() { curl -F"shorten=$1" https://envs.sh ; }
