@@ -1,4 +1,4 @@
-=/usr/bin/figlet -f smslant "~"$(stat -c '%U' `pwd`)
+=/usr/bin/figlet -f smslant $(stat -c '%U' `pwd`)
 
 this is my gopher page.
 
