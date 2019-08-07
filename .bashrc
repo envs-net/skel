@@ -118,4 +118,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+## defaults ##
+export GPG_TTY=$(tty)
+
+## includes ##
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
