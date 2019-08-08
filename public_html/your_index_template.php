@@ -4,7 +4,7 @@ this is a template for your own index.html.
 you can edit this file and rename it to index.html.
 have fun!
 
-cp ~/public_html/your_index_template.html ~/public_html/index.html
+cp ~/public_html/your_index_template.html ~/public_html/index.php
 
 YOU CAN REMOVE THIS COMMENT!
 -->
@@ -50,3 +50,4 @@ Mail:  <code><?=$user?>&#64;envs.net</code>
 
 	</body>
 </html>
+

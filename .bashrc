@@ -118,10 +118,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 ## defaults ##
 export GPG_TTY=$(tty)
 # envs
 export PATH=$PATH:/envs/bin
+#bbj
+export BBJ_USER=$USER
 
 ## includes ##
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
