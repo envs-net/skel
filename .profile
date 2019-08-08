@@ -26,6 +26,15 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+
+## defaults ##
+export GPG_TTY=$(tty)
+# envs
+export PATH=$PATH:/envs/bin
+#bbj
+export BBJ_USER=$USER
+
+
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
 fi
