@@ -31,7 +31,7 @@ fi
 export GPG_TTY=$(tty)
 # envs
 export PATH=$PATH:/envs/bin
-#bbj
+# bbj
 export BBJ_USER=$USER
 
 
