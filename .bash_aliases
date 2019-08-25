@@ -16,9 +16,9 @@ alias ls='exa -ag'
 alias la='exa -lag'
 alias ll='exa -lahg'
 
-# todo.sh
-alias todo='/usr/local/bin/todo.sh -d ~/.todo/config'
-alias t='/usr/local/bin/todo.sh -d ~/.todo/config'
+# todo-txt
+alias todo='todo-txt'
+alias t='todo-txt'
 
 #
 # envs.net
