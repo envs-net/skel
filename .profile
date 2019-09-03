@@ -35,7 +35,7 @@ export PATH=$PATH:/envs/bin
 export BBJ_USER=$USER
 
 # latest GO
-GOROOT=/usr/local/go
+export GOROOT=/usr/local/go
 
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
