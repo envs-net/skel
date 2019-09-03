@@ -34,6 +34,9 @@ export PATH=$PATH:/envs/bin
 # bbj
 export BBJ_USER=$USER
 
+# latest GO
+GOROOT=/usr/local/go
+
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
