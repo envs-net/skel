@@ -1,0 +1,9 @@
+#
+# ENVS.NET - user information config
+#
+# here you can add more details to youre users_info.json part
+#
+desc=a short describtion or message
+
+git=
+mastodon=
