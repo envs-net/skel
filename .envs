@@ -5,6 +5,10 @@
 #
 desc=a short describtion or message
 
-#add more informations
+# add more informations (max. 100 entrys)
 #git=
 #mastodon=
+# you can also add a array with unlimeted entrys
+#name=line1
+#name=line2
+#nametwo=line1
