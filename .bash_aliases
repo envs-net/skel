@@ -20,6 +20,20 @@ alias ll='exa -lahg'
 alias todo='todo-txt'
 alias t='todo-txt'
 
+# twtxt
+alias twtxt_users="curl 'https://twtxt.envs.net/api/plain/users'"
+twtxt_user_url() { curl 'https://twtxt.envs.net/api/plain/users?url='"$1" ; }
+alias twtxt_tweets="curl 'https://twtxt.envs.net/api/plain/tweets'"
+
+twtxt_user_key() { curl 'https://twtxt.envs.net/api/plain/users?q='"$1" ; }
+twtxt_key() { curl 'https://twtxt.envs.net/api/plain/tweets?q='"$1" ; }
+
+alias twtxt_tags="curl 'https://twtxt.envs.net/api/plain/tags'"
+twtxt_tag() { curl 'https://twtxt.envs.net/api/plain/tags/'"$1" ; }
+
+alias twtxt_mentions="curl 'https://twtxt.envs.net/api/plain/mentions'"
+twtxt_mention_url() { curl 'https://twtxt.envs.net/api/plain/mentions?url='"$1" ; }
+
 #
 # envs.net
 #
