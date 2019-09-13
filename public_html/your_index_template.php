@@ -1,10 +1,10 @@
 <!--
 hey,
-this is a template for your own index.html.
-you can edit this file and rename it to index.html.
+this is a template for your own index.php.
+you can edit this file and rename it to index.php.
 have fun!
 
-cp ~/public_html/your_index_template.html ~/public_html/index.php
+cp ~/public_html/your_index_template.php ~/public_html/index.php
 
 YOU CAN REMOVE THIS COMMENT!
 -->
@@ -12,7 +12,7 @@ YOU CAN REMOVE THIS COMMENT!
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>~<?=$user?> | Name</title>
+		<title>~<?=$user?> on envs.net</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="author" content="<?=$user?>">
 		<meta name="robots" content="noindex">
@@ -42,12 +42,7 @@ Mail:  <code><?=$user?>&#64;envs.net</code>
 			</div>
 		</div>
 
-<script>
-(function() {
-	setThemeFromCookie()
-})();
-</script>
+<script>(function() { setThemeFromCookie() })();</script>
 
 	</body>
 </html>
-
