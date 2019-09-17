@@ -1,4 +1,4 @@
-=/usr/bin/figlet -f smslant $(stat -c '%U' `pwd`)
+=/usr/bin/figlet -f smslant "$(stat -c '%U' "$(pwd)")"
 i	null.host	1
 ithis is my gopher page.	null.host	1
 i	null.host	1
