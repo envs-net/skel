@@ -36,6 +36,7 @@ export BBJ_USER=$USER
 
 # latest GO
 export GOROOT=/usr/local/go
+export PATH=$GOROOT/bin:$PATH
 
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
