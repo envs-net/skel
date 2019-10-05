@@ -29,7 +29,7 @@ YOU CAN REMOVE THIS COMMENT!
 		<!-- min-width: needed if the sidebar is enable -->
 		<div style="clear:both; /*min-width: 750px;*/">
 
-			<div style="float: left;">
+			<div id="main" style="float: left;">
 <pre>
 <blockquote>
 <?=$user?>
