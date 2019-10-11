@@ -21,7 +21,7 @@ YOU CAN REMOVE THIS COMMENT!
 		<meta name="description" content="~<?=$user?> on envs.net" />
 		<meta name="keywords" content="<?=$user?>" />
 		<link rel="stylesheet" href="https://envs.net/css/css_style.css" />
-		<link rel="stylesheet" href="https://envs.net/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="https://envs.net/css/fork-awesome.min.css" />
 		<script src="https://envs.net/js/darklight.js" ></script>
 	</head>
 <!-- HTML BODY -->
