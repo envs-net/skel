@@ -23,8 +23,8 @@ YOU CAN REMOVE THIS COMMENT!
 		<link rel="stylesheet" href="https://envs.net/css/css_style.css" />
 		<link rel="stylesheet" href="https://envs.net/css/fork-awesome.min.css" />
 	</head>
-<!-- HTML BODY -->
-	<body id="body">
+	<!-- dark/light-mode -->
+	<body id="body" class="dark-mode">
 		<!-- min-width: needed if the sidebar is enable -->
 		<div style="clear:both; /*min-width: 750px;*/">
 
