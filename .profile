@@ -38,9 +38,6 @@ export BBJ_USER=$USER
 export GOROOT=/usr/local/go
 export PATH=$GOROOT/bin:$PATH
 
-# latest nim
-export PATH=/usr/local/nimble/bin:$PATH
-
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
 fi
