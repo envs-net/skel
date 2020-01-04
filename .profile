@@ -40,4 +40,6 @@ export PATH=$GOROOT/bin:$PATH
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
+    # when we use `byobu-disable` we have an emtpy if..
+    true
 fi
