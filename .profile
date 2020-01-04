@@ -11,20 +11,14 @@
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
-    fi
+    [ -f "$HOME/.bashrc" ] && . "$HOME/.bashrc"
 fi
 
 # set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
+[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
 
 # set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
+[ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
 
 
 ## defaults ##
@@ -37,6 +31,7 @@ export BBJ_USER=$USER
 # latest GO
 export GOROOT=/usr/local/go
 export PATH=$GOROOT/bin:$PATH
+
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
