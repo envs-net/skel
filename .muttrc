@@ -30,6 +30,13 @@ unset imap_passive
 set mail_check = 60
 set timeout = 60
 
+# sidebar
+set sidebar_visible = yes
+
+bind index * sidebar-open
+bind index - sidebar-prev
+bind index + sidebar-next
+
 set signature ="~/.mutt/signature"
 
 #source ~/.gpg.rc
