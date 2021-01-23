@@ -35,6 +35,9 @@ export BBJ_USER=$USER
 export GOROOT=/usr/local/go
 export PATH=$GOROOT/bin:$PATH
 
+# hugo cachedir
+export HUGO_CACHEDIR="hugo_cache_$USER"
+
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
