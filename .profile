@@ -36,7 +36,7 @@ export GOROOT=/usr/local/go
 export PATH=$GOROOT/bin:$PATH
 
 # hugo cachedir
-export HUGO_CACHEDIR="hugo_cache_$USER"
+export HUGO_CACHEDIR="/tmp/hugo_cache_$USER"
 
 
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
