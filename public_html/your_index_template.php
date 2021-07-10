@@ -17,7 +17,7 @@ YOU CAN REMOVE THIS COMMENT!
 		<title>~<?=$user?> on envs.net</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="author" content="<?=$user?>">
-		<meta name="robots" content="noindex">
+		<meta name="robots" content="noindex,nofollow">
 		<meta name="description" content="~<?=$user?> on envs.net" />
 		<meta name="keywords" content="<?=$user?>" />
 		<link rel="stylesheet" href="https://envs.net/css/css_style.css" />
