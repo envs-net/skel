@@ -2,7 +2,7 @@ set from = "_username_@envs.net"
 set realname = "_username_"
 
 set imap_user = "_username_@envs.net"
-set imap_pass = "_password_"
+set imap_pass = '_password_'
 
 set smtp_url = "smtp://$imap_user@mail.envs.net:587/"
 set smtp_pass = $imap_pass
