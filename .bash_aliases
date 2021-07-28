@@ -1,11 +1,4 @@
 #
-# User specific exports
-#
-
-export EDITOR="nano"
-export PAGER="most"
-
-#
 # User specific aliases and functions
 #
 
@@ -35,7 +28,7 @@ alias twtxt_mentions="curl 'https://twtxt.envs.net/api/plain/mentions'"
 twtxt_mention_url() { curl 'https://twtxt.envs.net/api/plain/mentions?url='"$1" ; }
 
 #
-# envs.net
+# envs.sh
 #
 0file() { curl -F"file=@$1" https://envs.sh ; }
 0url() { curl -F"url=$1" https://envs.sh ; }

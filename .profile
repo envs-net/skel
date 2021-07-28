@@ -20,14 +20,23 @@ fi
 # set PATH so it includes user's private bin if it exists
 [ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
 
+#
+# User specific exports
+#
 
-## defaults ##
+## defaults
+
+export EDITOR="nano"
+export PAGER="most"
+
+# gpg
 export GPG_TTY=$(tty)
 #export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 #gpg-connect-agent updatestartuptty /bye > /dev/null
 
 # envs
 export PATH=$PATH:/envs/bin
+
 # bbj
 export BBJ_USER=$USER
 
@@ -38,7 +47,7 @@ export PATH=$GOROOT/bin:$PATH
 # hugo cachedir
 export HUGO_CACHEDIR="/tmp/hugo_cache_$USER"
 
-
+# byobu
 if [[ ! $TERM =~ screen ]] || [[ ! $TMUX =~ tmux ]]; then
     _byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
     # when we use `byobu-disable` we have an emtpy if..
