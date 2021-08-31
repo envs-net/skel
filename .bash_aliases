@@ -5,9 +5,9 @@
 alias grep='grep --color'
 alias psa='ps -axuwf'
 
-alias ls='exa -ag'
+#alias ls='exa -ag'
 alias la='exa -lag'
-alias ll='exa -lahg'
+#alias ll='exa -lahg'
 
 # todo-txt
 alias todo='todo-txt'
