@@ -16,6 +16,7 @@ YOU CAN REMOVE THIS COMMENT!
 	<head>
 		<title>~<?=$user?> on envs.net</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="<?=$user?>">
 		<meta name="robots" content="noindex,nofollow">
 		<meta name="description" content="~<?=$user?> on envs.net" />
