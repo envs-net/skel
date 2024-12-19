@@ -16,45 +16,47 @@ YOU CAN REMOVE THIS COMMENT!
 	<head>
 		<title>~<?=$user?> on envs.net</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="<?=$user?>">
 		<meta name="robots" content="noindex,nofollow">
 		<meta name="description" content="~<?=$user?> on envs.net" />
 		<meta name="keywords" content="<?=$user?>" />
-		<link rel="stylesheet" href="https://envs.net/css/css_style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://envs.net/css/neoenvs.css" />
 		<link rel="stylesheet" href="https://envs.net/css/fork-awesome.min.css" />
 	</head>
-	<!-- dark/light-mode -->
 	<body id="body" class="dark-mode">
-		<!-- min-width: needed if the sidebar is enable -->
-		<div style="clear:both; /*min-width: 750px;*/">
 
-			<div id="main">
-<pre>
-<blockquote>
-<?=$user?>
-
-</blockquote>
-hi and welcome to my new website.
-
-IRC:   <?=$user?> on tilde.chat
-Mail:  <code><?=$user?>&#64;envs.net</code>
-
-</pre>
-			</div>
-
-<!-- You can also enable a right sidebar
-
-			<div id="sidebar">
-<pre class="sidebar">
-
-more text
-
-</pre>
-			</div>
-
--->
+	<main>
+		<div class="block">
+			<h1><?=$user?></h1>
 		</div>
 
-	</body>
+		<p>hi and welcome to my new website.</p>
+
+		<table>
+	  		<tr><th></th> <th></th></tr>
+	  		<tr>
+	    		<td>IRC:</td>
+	    		<td><?=$user?> on tilde.chat</td>
+	  		</tr>
+	  		<tr>
+	    		<td>Mail:</td>
+	    		<td><code><?=$user?>&#64;envs.net</code></td>
+	  		</tr>
+		</table>
+
+	</main>
+
+<!-- You can also enable a right sidebar -->
+<!-- SIDEBAR -->
+<!--
+	<div id="sidebar">
+
+		<nav class="block">
+			<p>
+				more text
+			</p>
+		</nav>
+	</div>
+-->
 </html>
