@@ -28,8 +28,8 @@ alias twtxt_mentions="curl 'https://twtxt.envs.net/api/plain/mentions'"
 twtxt_mention_url() { curl 'https://twtxt.envs.net/api/plain/mentions?url='"$1" ; }
 
 #
-# envs.sh
+# nullpointer on 0x0.st
 #
-0file() { curl -F"file=@$1" https://envs.sh ; }
-0url() { curl -F"url=$1" https://envs.sh ; }
-0short() { curl -F"shorten=$1" https://envs.sh ; }
+0file() { curl -F"file=@$1" https://0x0.st/ ; }
+0url() { curl -F"url=$1" https://0x0.st/ ; }
+0short() { curl -F"shorten=$1" https://0x0.st/ ; }
