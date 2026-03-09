@@ -1,6 +1,3 @@
-# This file contains examples of some of the things you may want to
-# include in a user startup file.
-
 # skip this setup for non-interactive shells
 [[ -o interactive && -t 0 ]] || return
 
