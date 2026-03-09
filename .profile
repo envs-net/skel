@@ -20,6 +20,9 @@ fi
 # set PATH so it includes user's private bin if it exists
 [ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
 
+# add /usr/local/sbin only if it’s not already in your PATH:
+[[ ":$PATH:" != *":/usr/local/sbin:"* ]] && export PATH="/usr/local/sbin:$PATH"
+
 #
 # User specific exports
 #
